@@ -1,7 +1,7 @@
 # sosoDbApi
-基于sosoApi源码改写\n
+基于sosoApi源码改写
 支持多数据源配置
-支持直接配置数据库地址账号密码即可获取对应的resful格式的API\n
+支持直接配置数据库地址账号密码即可获取对应的resful格式的API
 
 照之前的README搭建环境
 数据库在db文件夹下，我测试的库是bootdo
