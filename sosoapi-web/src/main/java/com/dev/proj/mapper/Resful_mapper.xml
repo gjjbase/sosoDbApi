@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dev.proj.dao.ResfulDao">
+
+
+    <select id="selectTableAllList" resultType="map" parameterType="string" statementType="STATEMENT">
+        <![CDATA[
+
+
+
+        select
+        *
+        from
+         ${tableName}
+
+
+        ]]>
+
+
+    </select>
+    <select id="selectTableKey" resultType="string" statementType="STATEMENT">
+
+        <![CDATA[
+
+
+select COLUMN_NAME from information_schema.COLUMNS where TABLE_NAME = ${tableName} LIMIT 1;
+
+
+        ]]>
+
+    </select>
+<!--根据表名和ID获取对应的数据信息-->
+    <select id="selectTableListById" resultType="map" statementType="STATEMENT">
+
+        <![CDATA[
+
+  select
+        *
+        from
+         ${tableName}
+         WHERE
+         ${tableIdName} = ${tableIdValue}
+
+
+        ]]>
+
+    </select>
+
+    <select id="selectAllTableMsg" resultType="map">
+
+        select
+	*
+from
+	information_schema. tables
+where
+	table_schema = (select database())
+    </select>
+<!--根据表名获取对应的主键信息-->
+    <select id="selectPrikByTName" resultType="map">
+        SELECT *
+FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE TABLE_NAME=#{tableName}
+    </select>
+</mapper>

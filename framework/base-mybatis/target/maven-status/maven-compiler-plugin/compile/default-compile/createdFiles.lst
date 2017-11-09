@@ -1,0 +1,13 @@
+com/dev/base/jdbc/datasource/DataSourceContextHolder.class
+com/dev/base/mybatis/BaseMybatisEntity.class
+com/dev/base/mybatis/service/BaseMybatisService.class
+com/dev/base/jdbc/datasource/MultipleDataSource.class
+org/apache/ibatis/reflection/wrapper/MapWrapper.class
+org/apache/ibatis/reflection/wrapper/BeanWrapper.class
+com/dev/base/jdbc/annotation/ReadDataSource.class
+com/dev/base/mybatis/service/impl/BaseMybatisServiceImpl.class
+com/dev/base/mybatis/utils/transaction/ITransaction.class
+com/dev/base/jdbc/annotation/handler/ReadDataSourceHandler.class
+com/dev/base/mybatis/utils/transaction/TransactionUtils.class
+com/dev/base/mybatis/service/BaseMapMybatisService.class
+com/dev/base/mybatis/dao/BaseMybatisDao.class

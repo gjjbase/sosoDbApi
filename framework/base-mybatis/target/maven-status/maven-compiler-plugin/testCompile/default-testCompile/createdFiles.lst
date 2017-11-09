@@ -1,0 +1,8 @@
+com/dev/demo/service/DemoService.class
+com/dev/demo/service/impl/DemoServiceImpl.class
+com/dev/demo/entity/BaseEnum.class
+com/dev/demo/test/DemoTest$1.class
+com/dev/demo/test/DemoTest.class
+com/dev/demo/entity/Status.class
+com/dev/demo/entity/Demo.class
+com/dev/demo/dao/DemoDao.class

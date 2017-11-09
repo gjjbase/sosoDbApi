@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sosoapi-web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="sosoapi-web.war">
+      <element id="artifact" artifact-name="sosoapi-web:war exploded" />
+    </root>
+  </artifact>
+</component>

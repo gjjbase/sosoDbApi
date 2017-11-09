@@ -1,0 +1,13 @@
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/utils/transaction/TransactionUtils.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/utils/transaction/ITransaction.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/jdbc/datasource/MultipleDataSource.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/jdbc/datasource/DataSourceContextHolder.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/service/impl/BaseMybatisServiceImpl.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/service/BaseMybatisService.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/service/BaseMapMybatisService.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/dao/BaseMybatisDao.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/jdbc/annotation/ReadDataSource.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/org/apache/ibatis/reflection/wrapper/BeanWrapper.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/org/apache/ibatis/reflection/wrapper/MapWrapper.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/jdbc/annotation/handler/ReadDataSourceHandler.java
+/Users/koukouken/Downloads/sosoapi/framework-master/base-mybatis/src/main/java/com/dev/base/mybatis/BaseMybatisEntity.java
